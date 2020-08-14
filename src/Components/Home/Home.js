@@ -6,18 +6,11 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import { makeStyles } from '@material-ui/core/styles';
 import {Grid ,Container} from '@material-ui/core';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-}));
 
 export default function Home() {
-  const classes = useStyles();
-
+ 
   return (
     <div className={style.home}>
     <Container ><Grid container spacing={3}>
