@@ -1,0 +1,14 @@
+.navContainer{
+    display: none;
+    padding: 0;
+    overflow: hidden;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+
+}
+@media(max-width: 600px){
+    .navContainer{
+        display: block;
+    }
+}

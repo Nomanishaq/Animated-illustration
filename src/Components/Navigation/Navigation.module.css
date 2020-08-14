@@ -1,0 +1,14 @@
+@media(max-width: 600px){
+    .nav{
+        display: none;
+    }
+}
+
+.nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.logo{
+    color: #ffffff;
+    text-decoration: none;
+}

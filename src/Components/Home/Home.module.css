@@ -1,0 +1,52 @@
+.home {
+    /* width: 90%; */
+    height: 100vh;
+    background: linear-gradient(57deg, #00c6a1, #1e8294);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    color: #ffffff;
+}
+
+.homeImg {
+    padding: 50px;
+    width: 90%;
+}
+
+.homeContent{
+    margin: 80px;
+    margin-top: 150px;
+}
+.heading {
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: capitalize;
+ }
+ .title{
+     margin-left: 4px;
+     font-weight: 350;
+     font-size: 45px;
+ }
+ .socialIcon{
+     margin-left: 20%;
+ }
+ .icon{
+     padding: 5px;
+ }
+
+@media(max-width: 600px) {
+    .homeImg {
+        padding: 30px;
+        width: 80%;
+    }
+    .homeContent{
+        margin: 50px;
+        margin-top: -40px;
+    }
+    .heading {
+        font-size: 25px;
+     }
+     .title{
+        margin-left: 0px;
+        font-size: 24px;
+    }
+   
+}

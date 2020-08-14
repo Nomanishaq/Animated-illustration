@@ -1,10 +1,9 @@
 import React from 'react';
+import Router from './Router';
 
 function App() {
   return (
-  <>
-    <h1>Hello world</h1>
-  </>
+    <Router />
   );
 }
 
