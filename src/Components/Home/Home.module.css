@@ -11,42 +11,76 @@
     width: 90%;
 }
 
-.homeContent{
+.homeContent {
     margin: 80px;
     margin-top: 150px;
 }
+
 .heading {
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: capitalize;
- }
- .title{
-     margin-left: 4px;
-     font-weight: 350;
-     font-size: 45px;
- }
- .socialIcon{
-     margin-left: 20%;
- }
- .icon{
-     padding: 5px;
- }
+}
+
+.title {
+    margin-left: 4px;
+    font-weight: 350;
+    font-size: 45px;
+}
+
+.socialIcon {
+    margin-left: 35%;
+    margin-top: -40px;
+}
+
+.icon {
+    padding: 5px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+
+.skillSection{
+    color: black;
+    text-align: center;
+
+
+}
+.skillsTittle{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+.box{
+    width: 30%px;
+    height: 300px;
+    background: black;
+}
 
 @media(max-width: 600px) {
     .homeImg {
         padding: 30px;
         width: 80%;
     }
-    .homeContent{
+
+    .homeContent {
         margin: 50px;
         margin-top: -40px;
     }
+
     .heading {
-        font-size: 25px;
-     }
-     .title{
-        margin-left: 0px;
-        font-size: 24px;
+        font-size: 30px;
     }
-   
+
+    .title {
+        margin-left: 0px;
+        font-size: 28px;
+    }
+
+    .socialIcon {
+        margin-left: 30%;
+        margin-top: -25px;
+    }
+
+
 }
