@@ -3,7 +3,6 @@ import home from '../../img/home.png';
 import webDeveloper from '../../img/webdevelopment.jpg';
 import webdDsigner from '../../img/designing.jpg';
 import nomainIshaq from '../../img/nomanishaq.jpeg';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import style from './Home.module.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
