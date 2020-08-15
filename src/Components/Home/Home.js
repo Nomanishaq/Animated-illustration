@@ -1,7 +1,9 @@
 import React from 'react';
 import home from '../../img/home.png';
-import web from '../../img/webdevelopment.jpg';
-import design from '../../img/designing.jpg';
+import webDeveloper from '../../img/webdevelopment.jpg';
+import webdDsigner from '../../img/designing.jpg';
+import nomainIshaq from '../../img/nomanishaq.jpeg';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import style from './Home.module.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -52,28 +54,54 @@ export default function Home() {
         </Container>
       </section>
       {/* home section end */}
-     
-     
-      <section className={style.skillSection}>
-         <Container>
-          <h1 className={style.skillsTittle}>Skills</h1>
 
-          <Grid container spacing={5}>
-                <Grid item xs={12} sm={6}>
-                 <div>
-                 <img src={web} alt=" " width="100%"/>
-                 <h2>Web Developer</h2>
-                 </div>
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                <div>
-                <img src={design} alt=" " width="100%"/>
-                <h2>Web Designer</h2>
-                </div>
-                </Grid>
+
+      {/* Introduction start */}
+      <section>
+        <Container>
+          <h1 className={style.introHeading}>Introduction</h1>
+          <Grid container spacing={3}>
+           
+            <Grid item xs={12} sm={6}>
+              <div className={style.content}>
+              <h1 className={style.introTitle}>Noman Ishaq</h1>
+              <Container>
+              I'm Noman Ishaq. I am Web Developer and Web Designer with more than 2 years of experience. 
+              I have developed tons of Web Projects on various technologies including Html, css, Javascript,React, and Php. 
+              </Container>
+              </div>
+            </Grid>
+
+            <Grid item xs={12} sm={6}>
+              <img src={nomainIshaq} className={style.introImg} alt="Noman Ishaq"/>
+            </Grid>
           </Grid>
-         </Container>
+        </Container>
       </section>
+      {/* Introduction end */}
+
+
+      {/* skill section start */}
+      <section className={style.skillSection}>
+        <Container>
+          <h1 className={style.skillsTittle}>Expert In</h1>
+          <Grid container spacing={5}>
+            <Grid item xs={12} sm={6}>
+              <img src={webDeveloper} alt="web development" width="100%" />
+              <h2>Web Developer</h2>
+            </Grid>
+            <Grid item xs={12} sm={6}>
+              <img src={webdDsigner} alt="web designer" width="100%" />
+              <h2>Web Designer</h2>
+            </Grid>
+          </Grid>
+        </Container>
+      </section>
+      {/* skill section end */}
+
+
+
+      
 
     </div>
   );
