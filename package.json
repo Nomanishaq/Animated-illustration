@@ -11,9 +11,11 @@
     "@wellyshen/use-web-animations": "^0.5.2",
     "history": "^5.0.0",
     "react": "^16.13.1",
+    "react-animated-css": "^1.2.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.0.0-beta.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-typist": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",

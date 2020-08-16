@@ -45,34 +45,44 @@
     font-size: 40px;
     font-weight: 600;
 }
-.introTitle{
+
+.introTitle {
     text-align: center;
 }
-.content{
+
+.content {
     margin-top: 20%;
 }
-.introImg{
+
+.introImg {
     border-radius: 50%;
     width: 400px;
     align-items: center;
 }
 
-.skillSection {
+.expertiseSection {
     color: black;
     text-align: center;
 }
 
-.skillsTittle {
+.expertiseTittle {
     text-align: center;
     font-size: 35px;
 }
 
+.skillTitle {
+    text-align: center;
+    font-size: 40px;
+}
+
+
 @media(max-width: 600px) {
-    .introImg{
+    .introImg {
         width: 100%;
         margin: 10px auto 20px;
         display: block;
     }
+
     .homeImg {
         padding: 30px;
         width: 80%;
@@ -84,14 +94,23 @@
     }
 
     .heading {
-        font-size: 30px;
+        font-size: 25px;
+        font-weight: 500;
     }
-    .content{
+
+    .content {
         margin-top: 0%;
     }
+
     .title {
         margin-left: 0px;
-        font-size: 28px;
+        font-size: 24px;
+        font-weight: 400;
+
+    }
+
+    .skillTitle {
+        font-size: 30px;
     }
 
     .socialIcon {
