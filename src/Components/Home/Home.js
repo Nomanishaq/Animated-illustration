@@ -36,13 +36,13 @@ export default function Home() {
 
   const iconAniomation = useWebAnimations({
     keyframes: {
-      transform: 'translateX(30px)'
+      transform: 'translateX(10px)'
     },
     timing: {
-      duration: 3000,
+      duration: 1500,
       iterations: Infinity,
       direction: 'alternate',
-      easing: 'ease-in-out'
+      // easing: 'ease-in-out'
     }
   });
   const iconAni = useWebAnimations({ ...fadeInLeftBig });

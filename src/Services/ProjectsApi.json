@@ -1,0 +1,126 @@
+[
+    {
+        "name": "expense-tracker-app",
+        "title": "Expense Tracker App",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/expense-tracker-app",
+        "link": "https://expense-trackeer-app.netlify.app/",
+        "img": "http://portfolio-project-data.surge.sh/expense-tracker.png",
+        "technology": "React Js"
+    },
+    {
+        "name": "shoe-store",
+        "title": "Shoe Store App",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/shoe-store",
+        "link": "https://shoes-store-react.netlify.app/",
+        "img": "http://portfolio-project-data.surge.sh/shoe-store.png",
+        "technology": "React Js"
+    },
+    {
+        "name": "covid-19",
+        "title": "Covid-19 Tracker App",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/covid-19-tracker-app",
+        "link": "https://covid-19trackerapp.netlify.app/",
+        "img": "http://portfolio-project-data.surge.sh/covid-19.png",
+        "technology": "React Js"
+    },
+    {
+        "name": "tiny-animation",
+        "title": "Tiny Animation",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/TinyAnimation",
+        "link": "https://tiny-animation.netlify.app/",
+        "img": "http://portfolio-project-data.surge.sh/animation.png",
+        "technology": "React Js"
+    },
+    {
+        "name": "red-queen-race",
+        "title": "Red Qeen Race",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/Red-Queen-app/",
+        "link": "https://red-queen-race-app.netlify.app/",
+        "img": "http://portfolio-project-data.surge.sh/red-queen-race.png",
+        "technology": "React Js"
+    },
+    {
+        "name": "animated-illustration",
+        "title": "Animated Illustration",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/Animated-illustration/",
+        "link": "https://nomanishaq.netlify.app/",
+        "img": "http://portfolio-project-data.surge.sh/animatied-illustration.png",
+        "technology": "React Js"
+    },
+    {
+        "name": "soap",
+        "title": "Mukhtar Soap",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/Soap-company-template",
+        "link": "https://soap-company-responsive-design.web.app/index.html",
+        "img": "http://portfolio-project-data.surge.sh/soapcompany.png",
+        "technology": "Html, Css"
+    },
+    {
+        "name": "E-store",
+        "title": "E-store",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/E-store",
+        "link": "E-store.surge.sh",
+        "img": "http://portfolio-project-data.surge.sh/e-store.png",
+        "technology": "Html, Css"
+    },
+    {
+        "name": "Solo",
+        "title": "Solo Web Design",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/solo",
+        "link": "https://responsive-design-cba8e.web.app/",
+        "img": "http://portfolio-project-data.surge.sh/solo.png",
+        "technology": "Html, Css"
+    },
+    {
+        "name": "monster-killer-app",
+        "title": "Monster Killer App",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/solo",
+        "link": "http://monster-killer-game.surge.sh/",
+        "img": "http://portfolio-project-data.surge.sh/monster-killer.png",
+        "technology": "Java Script"
+    },
+    {
+        "name": "unconventional-calculator",
+        "title": "Unconventional Calculator",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/UnconventionalCalculator",
+        "link": "http://unconventional-calculator.surge.sh",
+        "img": "http://portfolio-project-data.surge.sh/unconventionalcalculator.png",
+        "technology": "Java Script"
+    },
+    {
+        "name": "Tasbeeh",
+        "title": "Tasbeeh App",
+        "github": true,
+        "github_url": "https://github.com/Nomanishaq/tasbeeh",
+        "link": "https://tasbeeh-start.firebaseapp.com/index.html",
+        "img": "http://portfolio-project-data.surge.sh/tasbeeh.png",
+        "technology": "Html, Css"
+    },
+    {
+        "name": "onlinelyloo",
+        "title": "Online Lyloo",
+        "github": false,
+        "link": "https://www.onlinelyloo.com/",
+        "img": "http://portfolio-project-data.surge.sh/onlinelyloo.png",
+        "technology": "Wordpress"
+    },
+    {
+        "name": "newdressfashion",
+        "title": "New Dress Fashion",
+        "github": false,
+        "link": "http://www.newdressfashion.com/",
+        "img": "http://portfolio-project-data.surge.sh/newdressfashion.png",
+        "technology": "Wordpress"
+    }
+]

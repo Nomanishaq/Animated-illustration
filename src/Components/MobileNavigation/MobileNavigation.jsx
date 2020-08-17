@@ -30,7 +30,7 @@ const MobileNavigation = () => {
   return ( 
     <div className={Style.navContainer}>
       <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
-        <Link to='/'><BottomNavigationAction className={classes.mobileNav} value="recents" showlabel="home" icon={<HomeIcon />} /></Link>
+        <Link to='/'><BottomNavigationAction className={classes.mobileNav} value="recents" icon={<HomeIcon />} /></Link>
         <Link to='/About'><BottomNavigationAction className={classes.mobileNav} value="favorites" icon={<FolderIcon />} /></Link>
         <Link to='/Projects'><BottomNavigationAction className={classes.mobileNav} value="folder" icon={<FavoriteIcon />} /></Link>
         <Link to='/Contact'><BottomNavigationAction className={classes.mobileNav} value="nearby" icon={<PermContactCalendarIcon />}/></Link>
