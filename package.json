@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.2.1",
     "@wellyshen/use-web-animations": "^0.5.2",
     "history": "^5.0.0",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-animated-css": "^1.2.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.0.0-beta.0",
